@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application form</title>
+</head>
+<body>
+    <h3>Application Form</h3>
+    <p>Fill in your details</p>
+    <form action="#" method="post">
+        <div>
+            <label for="firstname">First Name</label><br>
+            <input type="text" id="firstname" name="firstname" placeholder="Enter First Name" required>
+        </div>
+        <br>
+        <div>
+            <label for="lastname">Last Name</label><br>
+            <input type="text" id="lastname" name="lastname" placeholder="Enter Last Name" required>
+        </div>
+        <br>
+        <div>
+            <label for="gender">Gender</label><br>
+            <select name="gender" id="gender" required>
+                <option value="selectgender">Select gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="dateofbirth">Date of birth</label><br>
+            <input type="text" id="dateofbirth" name="dateofbirth" required>   
+        </div>
+        <br>
+        <div>
+            <label for="emailaddress">Email Address</label><br>
+            <input type="text" id="emailaddress" name="emailaddress" placeholder="Enter Email Address" required>
+        </div>
+        <br>
+        <div>
+            <label for="education">Education Level</label><br>
+            <select name="education" id="education" required>
+                <option value="education">Select level of education</option>
+                <option value="bsc">Bsc</option>
+                <option value="msc">Msc</option>
+                <option value="diploma">Diploma</option>
+                <option value="doctorate">Doctorate(PhD)</option>
+                <option value="highschool">High School/Secondary School</option>
+                <option value="undergraduate">Under Graduate</option>
+                <option value="juniorschool">Junior/Middle School</option>
+                <option value="postgraduate">Post Graduate</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="country">Country</label><br>
+            <select name="country" id="country" required>
+                <option value="selectcountry">Select your country</option>
+                <option value="ghana">Ghana</option>
+                <option value="nigeria">Nigeria</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="state of residence">State/City of Residence</label><br>
+            <input type="text" id="stateofresidence" name="stateofresidence" placeholder="Enter your state of residence" required>
+        </div>
+        <br>
+        <div>
+            <label for="employmentstatus">Employment Status</label><br>
+            <select name="employmentstatus" id="employmentstatus" required>
+                <option value="selectemploymentstatus">Select employment status</option>
+                <option value="employed">employed</option>
+                <option value="unemployed">unemployed</option>
+                <option value="selfemployed">self-employed</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="phonenumber">Phone Number</label><br>
+            <input type="number" id="phonenumber" name="phonenumber" placeholder="07056213064" required>
+        </div>
+        <br>
+        <div>
+            <label for="chooseschool">Choose School</label><br>
+            <select name="chooseschool" id="chooseschool" required>
+                <option value="selectschool">Select school</option>
+                <option value="schoolofcreativeeconomy">School of Creative Economy</option>
+                <option value="schoolofbusiness">School of Business</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="choosecourse">Choose Course of Study</label><br>
+            <select name="choosecourse" id="choosecourse" required>
+                <option value="selectcourse">Select course</option>
+                <option value="software">Software Engineering</option>
+                <option value="datascience">Data Science</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="how">How did you hear about us?</label><br>
+            <select name="how" id="how" required>
+                <option value="selectchannel">Select channel</option>
+                <option value="twitter">Twitter</option>
+                <option value="instagram">Instagram</option>
+                <option value="linkedin">Linkedin</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="scholarship">Scholarship/Discount Code (optional)</label><br>
+            <input type="text" id="scholarship" name="scholarship" placeholder="Scholarship or student ID or discount Code" required>
+        </div>
+        <p>By clicking continue, I agree to <a href="#">Terms of Use</a> and acknowledge that I have read the <a href="#">Privacy Policy</a></p>
+        <button>Proceed</button>
+        <p>Already have an account? <a href="#">Sign In</a> </p>
+    </form>
+</body>
+</html>
